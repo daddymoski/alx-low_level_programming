@@ -4,7 +4,7 @@
  *
  * main - Prints teh size of many var types
  *
- * Return: Always 0 (Success)
+ * Return:Always 0(Success)
  */
 int main(void)
 {
@@ -13,6 +13,6 @@ int main(void)
 	printf("Size of a long int: %d byte(S)\n",sizeof(c));
 	printf("Size of a long long int: %d byte(S)\n",sizeof(d));
 	printf("Size of a float: %d byte(S)\n",sizeof(e));
-        return(0);
+        return (0);
 }
 
